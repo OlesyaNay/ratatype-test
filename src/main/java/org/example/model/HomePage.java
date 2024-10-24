@@ -10,6 +10,9 @@ public class HomePage extends BasePage {
     @FindBy (xpath = "//*[@id='typing-tutor-link']")
     private WebElement typingTutorLinkInHeader;
 
+    @FindBy (xpath = "//*[@href='/typing-test/'][contains(@class, 'navbar')]")
+    private WebElement typingTestLinkInHeader;
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -18,6 +21,12 @@ public class HomePage extends BasePage {
         typingTutorLinkInHeader.click();
 
         return new TypingTutorPage(getDriver());
+    }
+
+    public TypingTestPage clickTypingTestLinkInHeader() {
+        typingTestLinkInHeader.click();
+
+        return new TypingTestPage(getDriver());
     }
 
 }
