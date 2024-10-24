@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment=".rename Main class to MainTest class&#10;.add testClickButtonTestYourSpeed test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/TypingTutorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/base/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/runner/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/runner/ProjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TypingTutorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/TypingTutorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/base/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/base/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/runner/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/runner/ProjectUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="olsn/newbranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +47,53 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="TestNG.HomeTest.testClickTypingTutorLinkInHeader">
+    <configuration name="HomeTest.testClickTypingTutorButtonInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
+      <option name="METHOD_NAME" value="testClickTypingTutorButtonInHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testClickTypingTutorLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
+      <option name="METHOD_NAME" value="testClickTypingTutorLinkInHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickTypingTutorButtonInHeader" />
+        <item itemvalue="TestNG.T001v01vHomeTest.testClickTypingTutorLinkInHeader" />
+        <item itemvalue="TestNG.T001v01vHomeTest.testClickTypingTutorButtonInHeader" />
+        <item itemvalue="TestNG.T001v01vHomeTest.testClickTypingTutorLinkInHeader" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
