@@ -13,6 +13,9 @@ public class HomePage extends BasePage {
     @FindBy (xpath = "//*[@href='/typing-test/'][contains(@class, 'navbar')]")
     private WebElement typingTestLinkInHeader;
 
+    @FindBy (xpath = "//*[@href='/learn/'][contains(@class, 'navbar')]")
+    private WebElement typingLearnInHeader;
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -27,6 +30,12 @@ public class HomePage extends BasePage {
         typingTestLinkInHeader.click();
 
         return new TypingTestPage(getDriver());
+    }
+
+    public LearnPage clickLearnLinkInHeader() {
+        typingLearnInHeader.click();
+
+        return new LearnPage(getDriver());
     }
 
 }

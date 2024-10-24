@@ -25,4 +25,13 @@ public class HomeTest extends BaseTest {
         Assert.assertEquals(pageTitle, "Typing test online ✔\uFE0F Get your certificate for free — Ratatype");
     }
 
+    @Test
+    public void testClickLearnLinkInHeader() {
+        String pageTitle = new HomePage(getDriver())
+                .clickLearnLinkInHeader()
+                .getTitleText();
+
+        Assert.assertEquals(pageTitle, "Learn how to type faster. Touch typing tips — Ratatype");
+    }
+
 }
