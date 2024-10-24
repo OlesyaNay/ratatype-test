@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment=".rename Main class to MainTest class&#10;.add testClickButtonTestYourSpeed test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/TypingTestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/LearnPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/HomePage.java" afterDir="false" />
     </list>
@@ -41,7 +41,25 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.HomeTest.testClickTypingTestLinkInHeader">
+  <component name="RunManager" selected="TestNG.HomeTest.testClickLearnLinkInHeader">
+    <configuration name="HomeTest.testClickLearnLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
+      <option name="METHOD_NAME" value="testClickLearnLinkInHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeTest.testClickTypingTestLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
@@ -98,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorButtonInHeader" />
