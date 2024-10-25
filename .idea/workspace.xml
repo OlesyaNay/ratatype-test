@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment=".rename Main class to MainTest class&#10;.add testClickButtonTestYourSpeed test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TypingTutorTest.java" afterDir="false" />
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add fakes tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TypingTutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TypingTutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/LearnPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/LearnPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TypingTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/TypingTestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TypingTutorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/TypingTutorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/base/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/base/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/model/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/runner/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/runner/ProjectUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +50,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java-projects\ratatype-test\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.TypingTutorTest.testTextTypingWithRobot">
     <configuration name="HomeTest.testClickLearnLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
@@ -133,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot" />
-        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorButtonInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729800944129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add TypingTutorTest class. Add testTextTypingWithRobot test.">
+      <option name="closed" value="true" />
+      <created>1729869998187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729869998187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add fakes tests">
+      <option name="closed" value="true" />
+      <created>1729870670708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729870670708</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +218,8 @@
     <MESSAGE value="add testClickButtonTestYourSpeed test" />
     <MESSAGE value=".rename Main class to MainTest class&#10;.add testClickButtonTestYourSpeed test" />
     <MESSAGE value="Add settings. Add testClickTypingTutorLinkInHeader test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add settings. Add testClickTypingTutorLinkInHeader test." />
+    <MESSAGE value="Add TypingTutorTest class. Add testTextTypingWithRobot test." />
+    <MESSAGE value="Add fakes tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fakes tests" />
   </component>
 </project>

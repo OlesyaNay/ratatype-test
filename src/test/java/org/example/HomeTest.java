@@ -2,7 +2,6 @@ package org.example;
 
 import org.example.model.HomePage;
 import org.example.runner.BaseTest;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -33,22 +32,6 @@ public class HomeTest extends BaseTest {
                 .getTitleText();
 
         Assert.assertEquals(pageTitle, "Learn how to type faster. Touch typing tips — Ratatype");
-    }
-
-    @Test
-    public void testFakeTestTrue() {
-        getDriver().findElement(By.xpath("//*[@href='/contact/']")).click();
-        String pageTitle = getDriver().findElement(By.xpath("//h1")).getText();
-
-        Assert.assertEquals(pageTitle, "Contact us");
-    }
-
-    @Test
-    public void testFakeTestFalse() {
-        getDriver().findElement(By.xpath("//*[@href='/contact/']")).click();
-        String pageTitle = getDriver().findElement(By.xpath("//h1")).getText();
-
-        Assert.assertEquals(pageTitle, "Contact us +++");
     }
 
 }
