@@ -49,4 +49,14 @@ public class TypingTutorTest extends BaseTest {
         Assert.assertEquals(title.getText(), "Typing Certification Test");
     }
 
+    @Test
+    public void testFailTest() {
+        getDriver().get("https://www.ratatype.com/");
+
+        getDriver().findElement(By.xpath("//*[text()='Test your speed']")).click();
+        WebElement title = getDriver().findElement(By.xpath("//*[@class='h2']"));
+
+        Assert.assertEquals(title.getText(), "Typing Certification Test------------------------");
+    }
+
 }
