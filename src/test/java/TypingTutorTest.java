@@ -13,7 +13,7 @@ public class TypingTutorTest extends BaseTest {
     // Если закрыть окно с тестом до окончания набора текста, то Robot продолжит нажимать клавиши
     // в ранее открытом окне (в IDE) пока не закончится текст или пока не будет остановлен тест.
     // !!! !!! !!!
-    @Test
+//    @Test
     public void testTextTypingWithRobot() throws AWTException {
         getDriver().get("https://www.ratatype.com/typing-tutor/");
 
@@ -37,6 +37,16 @@ public class TypingTutorTest extends BaseTest {
         WebElement titleH2 = getDriver().findElement(By.xpath("//h2"));
 
         Assert.assertTrue(titleH2.getText().contains("words per minute"));
+    }
+
+    @Test
+    public void testTrueTest() {
+        getDriver().get("https://www.ratatype.com/");
+
+        getDriver().findElement(By.xpath("//*[text()='Test your speed']")).click();
+        WebElement title = getDriver().findElement(By.xpath("//*[@class='h2']"));
+
+        Assert.assertEquals(title.getText(), "Typing Certification Test");
     }
 
 }

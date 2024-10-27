@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Delete &quot;main&quot; folder">
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ProjectUtils.java" afterDir="false" />
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Change use ChromeDriver to FirefoxDriver">
+      <change beforePath="$PROJECT_DIR$/src/test/java/TypingTutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TypingTutorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="olsn/RT-13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +59,7 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TypingTutorTest">
+  <component name="RunManager" selected="TestNG.TypingTutorTest.testTrueTest">
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,24 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.testClickTypingTutorLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
-      <option name="METHOD_NAME" value="testClickTypingTutorLinkInHeader" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TypingTutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,17 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypingTutorTest.testTextTypingWithRobot" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TypingTutorTest.testFailTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TypingTutorTest" />
-      <option name="METHOD_NAME" value="testTextTypingWithRobot" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="METHOD_NAME" value="testFailTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypingTutorTest.testTrueTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="METHOD_NAME" value="testTrueTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TypingTutorTest.testTrueTest" />
+        <item itemvalue="TestNG.TypingTutorTest.testFailTest" />
         <item itemvalue="TestNG.TypingTutorTest" />
         <item itemvalue="TestNG.HomeTest" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader (1)" />
-        <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730044198175</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change use ChromeDriver to FirefoxDriver">
+      <option name="closed" value="true" />
+      <created>1730045956974</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730045956974</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +206,7 @@
     <MESSAGE value="Refactoring pom.xml" />
     <MESSAGE value="Move tests from &quot;main&quot; folder to &quot;test&quot; folder" />
     <MESSAGE value="Delete &quot;main&quot; folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete &quot;main&quot; folder" />
+    <MESSAGE value="Change use ChromeDriver to FirefoxDriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change use ChromeDriver to FirefoxDriver" />
   </component>
 </project>
