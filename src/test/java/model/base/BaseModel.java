@@ -1,4 +1,4 @@
-package org.example.model.base;
+package model.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

@@ -1,6 +1,6 @@
-package org.example.model;
+package model;
 
-import org.example.model.base.BasePage;
+import model.base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
