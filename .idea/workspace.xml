@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Delete &quot;main&quot; folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ProjectUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest">
+  <component name="RunManager" selected="TestNG.TypingTutorTest">
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,35 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.testClickTypingTestLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeTest.testClickTypingTutorLinkInHeader (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
-      <option name="METHOD_NAME" value="testClickTypingTestLinkInHeader" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTest.testClickTypingTutorButtonInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
-      <option name="METHOD_NAME" value="testClickTypingTutorButtonInHeader" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="METHOD_NAME" value="testClickTypingTutorLinkInHeader" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,6 +95,17 @@
       <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
       <option name="METHOD_NAME" value="testClickTypingTutorLinkInHeader" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypingTutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TypingTutorTest" />
         <item itemvalue="TestNG.HomeTest" />
+        <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader (1)" />
         <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTutorButtonInHeader" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
       </list>
     </recent_temporary>
   </component>
