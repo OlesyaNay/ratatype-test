@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment=".rename Main class to MainTest class&#10;.add testClickButtonTestYourSpeed test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TypingTutorTest.java" afterDir="false" />
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add dependency">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +28,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2nlWz5hr2StolEEVBRUFsU5AcGr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/java-projects/ratatype-test"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.TypingTutorTest.testTextTypingWithRobot">
     <configuration name="HomeTest.testClickLearnLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
@@ -133,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot" />
-        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorButtonInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
       </list>
     </recent_temporary>
   </component>
