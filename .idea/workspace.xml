@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add dependency">
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Delete &quot;main&quot; folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Move tests from &quot;main&quot; folder to &quot;test&quot; folder" />
+        <option name="rewordedMessage" value="Move tests from &quot;main&quot; folder to &quot;test&quot; folder. Delete &quot;main&quot; folder" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="93b6c570465aabdc4850f0ea0e9b897f00ef90e0" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,26 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/java-projects/ratatype-test"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java-projects/ratatype-test/src/test/java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.TypingTutorTest.testTextTypingWithRobot">
-    <configuration name="HomeTest.testClickLearnLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java-projects\ratatype-test\src\test\java" />
+      <recent name="D:\java-projects\ratatype-test\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.HomeTest">
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.HomeTest" />
-      <option name="METHOD_NAME" value="testClickLearnLinkInHeader" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest" />
         <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorButtonInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
-        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +178,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729800944129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactoring pom.xml">
+      <option name="closed" value="true" />
+      <created>1730043831405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730043831405</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Move tests from &quot;main&quot; folder to &quot;test&quot; folder">
+      <option name="closed" value="true" />
+      <created>1730044156412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730044156412</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Delete &quot;main&quot; folder">
+      <option name="closed" value="true" />
+      <created>1730044198175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730044198175</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +220,9 @@
     <MESSAGE value="add testClickButtonTestYourSpeed test" />
     <MESSAGE value=".rename Main class to MainTest class&#10;.add testClickButtonTestYourSpeed test" />
     <MESSAGE value="Add settings. Add testClickTypingTutorLinkInHeader test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add settings. Add testClickTypingTutorLinkInHeader test." />
+    <MESSAGE value="Refactoring pom.xml" />
+    <MESSAGE value="Move tests from &quot;main&quot; folder to &quot;test&quot; folder" />
+    <MESSAGE value="Delete &quot;main&quot; folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete &quot;main&quot; folder" />
   </component>
 </project>

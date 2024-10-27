@@ -1,4 +1,4 @@
-package org.example.runner;
+package runner;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

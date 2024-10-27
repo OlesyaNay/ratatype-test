@@ -1,9 +1,7 @@
-package org.example;
-
-import org.example.model.HomePage;
-import org.example.runner.BaseTest;
+import model.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import runner.BaseTest;
 
 public class HomeTest extends BaseTest {
 
