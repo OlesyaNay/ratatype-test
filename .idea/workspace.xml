@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Delete &quot;main&quot; folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/SignupPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.testClickLogin">
+  <component name="RunManager" selected="TestNG.HomeTest.testClickSignup">
     <configuration name="HomeTest.testClickLearnLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,6 +79,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomeTest" />
       <option name="METHOD_NAME" value="testClickLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testClickSignup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="METHOD_NAME" value="testClickSignup" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,25 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypingTutorTest.testTextTypingWithRobot (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
-      <option name="METHOD_NAME" value="testTextTypingWithRobot" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest.testClickSignup" />
         <item itemvalue="TestNG.HomeTest.testClickLogin" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
         <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
-        <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730079005102</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add testClickLogin test">
+      <option name="closed" value="true" />
+      <created>1730249443265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730249443265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +219,7 @@
     <MESSAGE value="Move tests from &quot;main&quot; folder to &quot;test&quot; folder" />
     <MESSAGE value="Delete &quot;main&quot; folder" />
     <MESSAGE value="Refactoring testRatatypePrintSpeed test to POM (v2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring testRatatypePrintSpeed test to POM (v2)" />
+    <MESSAGE value="Add testClickLogin test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add testClickLogin test" />
   </component>
 </project>

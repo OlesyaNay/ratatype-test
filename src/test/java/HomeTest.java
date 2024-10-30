@@ -42,4 +42,14 @@ public class HomeTest extends BaseTest {
         Assert.assertEquals(pageTitle, "Log in — Ratatype");
     }
 
+    @Test
+    public void testClickSignup() {
+        String pageTitle = new HomePage(getDriver())
+                .clickDropdownToggleInHeader()
+                .clickSignupLinkInDropdownToggleInHeader()
+                .getTitleText();
+
+        Assert.assertEquals(pageTitle, "Create a free account — Ratatype");
+    }
+
 }
