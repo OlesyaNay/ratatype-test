@@ -66,4 +66,11 @@ public class HomePage extends BasePage {
         return new SignupPage(getDriver());
     }
 
+    public LoginPage goToLoginPage() {
+        clickDropdownToggleInHeader();
+        clickLoginLinkInDropdownToggleInHeader();
+
+        return new LoginPage(getDriver());
+    }
+
 }
