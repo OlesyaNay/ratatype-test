@@ -32,4 +32,14 @@ public class HomeTest extends BaseTest {
         Assert.assertEquals(pageTitle, "Learn how to type faster. Touch typing tips — Ratatype");
     }
 
+    @Test
+    public void testClickLogin() {
+        String pageTitle = new HomePage(getDriver())
+                .clickDropdownToggleInHeader()
+                .clickLoginLinkInDropdownToggleInHeader()
+                .getTitleText();
+
+        Assert.assertEquals(pageTitle, "Log in — Ratatype");
+    }
+
 }
