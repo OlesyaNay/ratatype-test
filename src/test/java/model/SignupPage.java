@@ -3,9 +3,9 @@ package model;
 import model.base.BasePage;
 import org.openqa.selenium.WebDriver;
 
-public class TypingTutorPage extends BasePage {
+public class SignupPage extends BasePage {
 
-    protected TypingTutorPage(WebDriver driver) {
+    protected SignupPage(WebDriver driver) {
         super(driver);
     }
 }

@@ -23,6 +23,9 @@ public class HomePage extends BasePage {
     @FindBy (xpath = "//*[@href='/login/']")
     private WebElement loginLinkInDropdownToggleInHeader;
 
+    @FindBy (xpath = "//*[@href='/signup/']")
+    private WebElement signupLinkInDropdownToggleInHeader;
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -55,6 +58,12 @@ public class HomePage extends BasePage {
         getWait2().until(ExpectedConditions.elementToBeClickable(loginLinkInDropdownToggleInHeader)).click();
 
         return new LoginPage(getDriver());
+    }
+
+    public SignupPage clickSignupLinkInDropdownToggleInHeader() {
+        getWait2().until(ExpectedConditions.elementToBeClickable(signupLinkInDropdownToggleInHeader)).click();
+
+        return new SignupPage(getDriver());
     }
 
 }
