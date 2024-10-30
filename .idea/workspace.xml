@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Delete &quot;main&quot; folder">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TypingTutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TypingTutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="ttt" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,23 +59,12 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TypingTutorTest.testTextTypingWithRobot (1)">
-    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomeTest.testClickTypingTestLinkInHeader">
+    <configuration name="HomeTest.testClickLearnLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTest.testClickTypingTutorLinkInHeader (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="METHOD_NAME" value="testClickTypingTutorLinkInHeader" />
+      <option name="METHOD_NAME" value="testClickLearnLinkInHeader" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,11 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypingTutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeTest.testClickTypingTestLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="METHOD_NAME" value="testClickTypingTestLinkInHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testClickTypingTutorLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeTest" />
+      <option name="METHOD_NAME" value="testClickTypingTutorLinkInHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader" />
+        <item itemvalue="TestNG.HomeTest.testClickLearnLinkInHeader" />
         <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot (1)" />
-        <item itemvalue="TestNG.TypingTutorTest" />
-        <item itemvalue="TestNG.HomeTest" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTutorLinkInHeader (1)" />
         <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot" />
       </list>
     </recent_temporary>
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730044198175</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactoring testRatatypePrintSpeed test to POM (v2)">
+      <option name="closed" value="true" />
+      <created>1730079005102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730079005102</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +214,7 @@
     <MESSAGE value="Refactoring pom.xml" />
     <MESSAGE value="Move tests from &quot;main&quot; folder to &quot;test&quot; folder" />
     <MESSAGE value="Delete &quot;main&quot; folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete &quot;main&quot; folder" />
+    <MESSAGE value="Refactoring testRatatypePrintSpeed test to POM (v2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring testRatatypePrintSpeed test to POM (v2)" />
   </component>
 </project>

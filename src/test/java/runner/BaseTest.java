@@ -2,8 +2,11 @@ package runner;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
+import java.lang.reflect.Method;
 
 public abstract class BaseTest {
 
@@ -46,14 +49,19 @@ public abstract class BaseTest {
     }
 
     @BeforeMethod
-    protected void beforeMethod() {
+    protected void beforeMethod(Method method) {
+        System.out.println("log: >>> Run " + this.getClass().getName() + "." + method.getName());
+
         startDriver();
         getWeb();
     }
 
     @AfterMethod
-    protected void afterMethod() {
+    protected void afterMethod(ITestResult testResult) {
         stopDriver();
+
+        System.out.println("log: Execution time is "
+                + ((testResult.getEndMillis() - testResult.getStartMillis()) / 1000) + " sec");
     }
 
 }
