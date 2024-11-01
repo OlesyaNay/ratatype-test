@@ -25,8 +25,6 @@ public class LoginTest extends BaseTest {
                 .clickForgotYourPasswordLink()
                 .getTitleText();
 
-        System.out.println("--" + pageTitle);
-
         Assert.assertEquals(pageTitle, "Forgot password — Ratatype");
     }
 

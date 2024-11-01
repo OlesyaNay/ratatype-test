@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add testClickLoginWithGoogleButton test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/RemindPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add testClickForgotYourPasswordLink test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730249443265</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add testClickForgotYourPasswordLink test">
+      <option name="closed" value="true" />
+      <created>1730462260705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730462260705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +236,7 @@
     <MESSAGE value="Delete &quot;main&quot; folder" />
     <MESSAGE value="Refactoring testRatatypePrintSpeed test to POM (v2)" />
     <MESSAGE value="Add testClickLogin test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add testClickLogin test" />
+    <MESSAGE value="Add testClickForgotYourPasswordLink test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add testClickForgotYourPasswordLink test" />
   </component>
 </project>
