@@ -18,4 +18,16 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(text, "Ratatype");
     }
 
+    @Test
+    public void testClickForgotYourPasswordLink() {
+        String pageTitle = new HomePage(getDriver())
+                .goToLoginPage()
+                .clickForgotYourPasswordLink()
+                .getTitleText();
+
+        System.out.println("--" + pageTitle);
+
+        Assert.assertEquals(pageTitle, "Forgot password — Ratatype");
+    }
+
 }

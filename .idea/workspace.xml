@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Delete &quot;main&quot; folder">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/GoogleAuthorizationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/base/BaseNonProjectPage.java" afterDir="false" />
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add testClickLoginWithGoogleButton test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/RemindPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,49 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java-projects/ratatype-test/src/test/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/java-projects/deletettt"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java-projects\ratatype-test\src\test\java" />
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.testClickLoginWithGoogleButton">
+  <component name="RunManager" selected="TestNG.LoginTest.testClickForgotYourPasswordLink">
     <configuration name="HomeTest.testClickLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomeTest" />
       <option name="METHOD_NAME" value="testClickLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTest.testClickSignup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="METHOD_NAME" value="testClickSignup" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTest.testClickTypingTestLinkInHeader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="METHOD_NAME" value="testClickTypingTestLinkInHeader" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,6 +88,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.testClickForgotYourPasswordLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="testClickForgotYourPasswordLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.testClickLoginWithGoogleButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,13 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypingTutorTest.testR" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="METHOD_NAME" value="testR" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.testClickForgotYourPasswordLink" />
         <item itemvalue="TestNG.LoginTest.testClickLoginWithGoogleButton" />
+        <item itemvalue="TestNG.TypingTutorTest.testR" />
         <item itemvalue="TestNG.HomeTest.testTtttttt" />
         <item itemvalue="TestNG.HomeTest.testClickLogin" />
-        <item itemvalue="TestNG.HomeTest.testClickSignup" />
-        <item itemvalue="TestNG.HomeTest.testClickTypingTestLinkInHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +207,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ttt" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
