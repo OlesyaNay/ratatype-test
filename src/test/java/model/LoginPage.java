@@ -14,6 +14,9 @@ public class LoginPage extends BasePage {
     @FindBy (xpath = "//*[@href='javascript:void(0)']")
     private WebElement forgotYourPasswordLink;
 
+    @FindBy (xpath = "//p/a[@href='/signup/']")
+    private WebElement signUpNowLinkUnderLoginButton;
+
     protected LoginPage(WebDriver driver) {
         super(driver);
     }
@@ -28,6 +31,12 @@ public class LoginPage extends BasePage {
         getWait3().until(ExpectedConditions.elementToBeClickable(forgotYourPasswordLink)).click();
 
         return new RemindPage(getDriver());
+    }
+
+    public SignupPage clickSignUpNowLink() {
+        getWait3().until(ExpectedConditions.elementToBeClickable(signUpNowLinkUnderLoginButton)).click();
+
+        return new SignupPage(getDriver());
     }
 
 }
