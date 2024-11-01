@@ -28,4 +28,14 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(pageTitle, "Forgot password — Ratatype");
     }
 
+    @Test
+    public void testClickSignUpNowLink() {
+        String pageTitle = new HomePage(getDriver())
+                .goToLoginPage()
+                .clickSignUpNowLink()
+                .getTitleText();
+
+        Assert.assertEquals(pageTitle, "Create a free account — Ratatype");
+    }
+
 }
