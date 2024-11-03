@@ -1,5 +1,5 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import model.HomePage;
+import model.TestStringResultsPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import runner.BaseTest;
@@ -15,14 +15,16 @@ public class TypingTutorTest extends BaseTest {
     // в ранее открытом окне (в IDE) пока не закончится текст или пока не будет остановлен тест.
     // !!! !!! !!!
     @Test
-    public void testTextTypingWithRobot() throws AWTException {
-        getDriver().get("https://www.ratatype.com/typing-tutor/");
+    public void testTextTypingWithRobotInTypingTutorPage() throws AWTException, InterruptedException {
+        new HomePage(getDriver()).goToTypingTutorPage();
 
-        String textForTyping = "type me to find out how many words per minute you can type";
-        TestUtils.startTypingWithRobot(textForTyping);
+        TestUtils.startTypingWithRobotInTypingTutorPage(getDriver());
 
-        WebElement titleH2 = getDriver().findElement(By.xpath("//h2"));
-        Assert.assertTrue(titleH2.getText().contains("words per minute"));
+        String titleH2Text = new TestStringResultsPage(getDriver())
+                .getTitleH2()
+                .getText();
+
+        Assert.assertTrue(titleH2Text.contains("words per minute"));
     }
 
 }
