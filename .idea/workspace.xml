@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add testClickForgotYourPasswordLink test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/CoursesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/FaqPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/Footer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/GroupsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/HighScoresPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/KeyboardTestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/PlayTheGameAndLearnPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTitles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/t_footer/HomeFooterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="ttt-futer" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,12 +70,35 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.testClickSignUpNowLink">
-    <configuration name="HomeTest.testTtttttt" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomeFooterTest">
+    <configuration name="HomeFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeTest" />
-      <option name="METHOD_NAME" value="testTtttttt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="t_footer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="t_footer" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeFooterTest.testClickGroupsLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="t_footer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="t_footer" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
+      <option name="METHOD_NAME" value="testClickGroupsLinkInFooter" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,11 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testClickForgotYourPasswordLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeFooterTest.testClickTypingTestLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="testClickForgotYourPasswordLink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="t_footer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="t_footer" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
+      <option name="METHOD_NAME" value="testClickTypingTestLinkInFooter" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,11 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testClickLoginWithGoogleButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeFooterTest.testClickTypingTutorLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="testClickLoginWithGoogleButton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="t_footer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="t_footer" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
+      <option name="METHOD_NAME" value="testClickTypingTutorLinkInFooter" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,25 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypingTutorTest.testR" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
-      <option name="METHOD_NAME" value="testR" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeFooterTest" />
+        <item itemvalue="TestNG.HomeFooterTest.testClickGroupsLinkInFooter" />
+        <item itemvalue="TestNG.HomeFooterTest.testClickTypingTestLinkInFooter" />
+        <item itemvalue="TestNG.HomeFooterTest.testClickTypingTutorLinkInFooter" />
         <item itemvalue="TestNG.LoginTest.testClickSignUpNowLink" />
-        <item itemvalue="TestNG.LoginTest.testClickForgotYourPasswordLink" />
-        <item itemvalue="TestNG.LoginTest.testClickLoginWithGoogleButton" />
-        <item itemvalue="TestNG.TypingTutorTest.testR" />
-        <item itemvalue="TestNG.HomeTest.testTtttttt" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730462260705</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="footer">
+      <option name="closed" value="true" />
+      <created>1730636850604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730636850604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +281,7 @@
     <MESSAGE value="Refactoring testRatatypePrintSpeed test to POM (v2)" />
     <MESSAGE value="Add testClickLogin test" />
     <MESSAGE value="Add testClickForgotYourPasswordLink test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add testClickForgotYourPasswordLink test" />
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
   </component>
 </project>
