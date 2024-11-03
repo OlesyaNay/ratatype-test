@@ -73,4 +73,10 @@ public class HomePage extends BasePage {
         return new LoginPage(getDriver());
     }
 
+    public TypingTutorPage goToTypingTutorPage() {
+        clickTypingTutorLinkInHeader();
+
+        return new TypingTutorPage(getDriver());
+    }
+
 }
