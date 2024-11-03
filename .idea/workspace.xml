@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add HomeFooterTest class and 9 footer tests" />
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add HomeFooterTest class and 9 footer tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/t_footer/TypingTutorFooterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ttt-futer" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +61,7 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeFooterTest">
+  <component name="RunManager" selected="TestNG.TypingTutorFooterTest">
     <configuration name="HomeFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
@@ -93,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeFooterTest.testClickTypingTestLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TypingTutorFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +106,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="t_footer" />
-      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
-      <option name="METHOD_NAME" value="testClickTypingTestLinkInFooter" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.TypingTutorFooterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypingTutorFooterTest.testClickKeyboardTestLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="t_footer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="t_footer" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.TypingTutorFooterTest" />
+      <option name="METHOD_NAME" value="testClickKeyboardTestLinkInFooter" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeFooterTest.testClickTypingTutorLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TypingTutorFooterTest.testClickTypingTutorLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
         <pattern>
@@ -120,20 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="t_footer" />
-      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.TypingTutorFooterTest" />
       <option name="METHOD_NAME" value="testClickTypingTutorLinkInFooter" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testClickSignUpNowLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="testClickSignUpNowLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TypingTutorFooterTest" />
+        <item itemvalue="TestNG.TypingTutorFooterTest.testClickKeyboardTestLinkInFooter" />
+        <item itemvalue="TestNG.TypingTutorFooterTest.testClickTypingTutorLinkInFooter" />
         <item itemvalue="TestNG.HomeFooterTest" />
         <item itemvalue="TestNG.HomeFooterTest.testClickGroupsLinkInFooter" />
-        <item itemvalue="TestNG.HomeFooterTest.testClickTypingTestLinkInFooter" />
-        <item itemvalue="TestNG.HomeFooterTest.testClickTypingTutorLinkInFooter" />
-        <item itemvalue="TestNG.LoginTest.testClickSignUpNowLink" />
       </list>
     </recent_temporary>
   </component>
