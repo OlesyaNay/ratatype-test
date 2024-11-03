@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add HomeFooterTest class and 9 footer tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/t_footer/TypingTutorFooterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/t_footer/TypingTestFooterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TypingTutorFooterTest">
+  <component name="RunManager" selected="TestNG.TypingTestFooterTest">
     <configuration name="HomeFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
@@ -79,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeFooterTest.testClickGroupsLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TypingTestFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
         <pattern>
@@ -88,9 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="t_footer" />
-      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
-      <option name="METHOD_NAME" value="testClickGroupsLinkInFooter" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="t_footer.TypingTestFooterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TypingTestFooterTest" />
         <item itemvalue="TestNG.TypingTutorFooterTest" />
         <item itemvalue="TestNG.TypingTutorFooterTest.testClickKeyboardTestLinkInFooter" />
         <item itemvalue="TestNG.TypingTutorFooterTest.testClickTypingTutorLinkInFooter" />
         <item itemvalue="TestNG.HomeFooterTest" />
-        <item itemvalue="TestNG.HomeFooterTest.testClickGroupsLinkInFooter" />
       </list>
     </recent_temporary>
   </component>

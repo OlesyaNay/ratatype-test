@@ -79,4 +79,10 @@ public class HomePage extends BasePage {
         return new TypingTutorPage(getDriver());
     }
 
+    public TypingTestPage goToTypingTestPage() {
+        clickTypingTestLinkInHeader();
+
+        return new TypingTestPage(getDriver());
+    }
+
 }
