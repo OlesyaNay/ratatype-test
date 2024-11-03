@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.lang.reflect.Method;
 
-public abstract class BaseTest {
+public abstract class BaseTest extends BaseTitles {
 
     private WebDriver driver;
 
