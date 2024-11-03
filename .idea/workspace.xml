@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add testClickForgotYourPasswordLink test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/CoursesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/FaqPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/GroupsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/HighScoresPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/KeyboardTestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/PlayTheGameAndLearnPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTitles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/t_footer/HomeFooterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add HomeFooterTest class and 9 footer tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730636850604</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add HomeFooterTest class and 9 footer tests">
+      <option name="closed" value="true" />
+      <created>1730644425027</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730644425027</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +277,7 @@
     <MESSAGE value="Add testClickLogin test" />
     <MESSAGE value="Add testClickForgotYourPasswordLink test" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="Add HomeFooterTest class and 9 footer tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HomeFooterTest class and 9 footer tests" />
   </component>
 </project>
