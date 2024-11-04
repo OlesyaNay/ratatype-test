@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009d306c-268d-471e-a38b-1273f7e08e33" name="Changes" comment="Add HomeFooterTest class and 9 footer tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/t_footer/TypingTestFooterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/TestStringResultsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TypingTutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TypingTutorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
@@ -61,58 +64,7 @@
       <recent name="D:\java-projects\ratatype-test\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TypingTestFooterTest">
-    <configuration name="HomeFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="t_footer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="t_footer" />
-      <option name="MAIN_CLASS_NAME" value="t_footer.HomeFooterTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypingTestFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="t_footer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="t_footer" />
-      <option name="MAIN_CLASS_NAME" value="t_footer.TypingTestFooterTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypingTutorFooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ratatype-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="t_footer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="t_footer" />
-      <option name="MAIN_CLASS_NAME" value="t_footer.TypingTutorFooterTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TypingTutorTest">
     <configuration name="TypingTutorFooterTest.testClickKeyboardTestLinkInFooter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ratatype-test" />
       <extension name="coverage">
@@ -149,13 +101,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypingTutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypingTutorTest.testTextTypingWithRobot2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="METHOD_NAME" value="testTextTypingWithRobot2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypingTutorTest.testTextTypingWithRobotInTypingTutorPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ratatype-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TypingTutorTest" />
+      <option name="METHOD_NAME" value="testTextTypingWithRobotInTypingTutorPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TypingTestFooterTest" />
-        <item itemvalue="TestNG.TypingTutorFooterTest" />
-        <item itemvalue="TestNG.TypingTutorFooterTest.testClickKeyboardTestLinkInFooter" />
+        <item itemvalue="TestNG.TypingTutorTest" />
+        <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobotInTypingTutorPage" />
+        <item itemvalue="TestNG.TypingTutorTest.testTextTypingWithRobot2" />
         <item itemvalue="TestNG.TypingTutorFooterTest.testClickTypingTutorLinkInFooter" />
-        <item itemvalue="TestNG.HomeFooterTest" />
+        <item itemvalue="TestNG.TypingTutorFooterTest.testClickKeyboardTestLinkInFooter" />
       </list>
     </recent_temporary>
   </component>

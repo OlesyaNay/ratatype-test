@@ -1,30 +1,50 @@
 package runner;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 import java.awt.*;
+import java.awt.event.KeyEvent;
 
 public final class TestUtils {
 
-    public static void startTypingWithRobot(String text) throws AWTException {
-        Robot robot = new Robot();
-        robot.delay(3000);      // Create a three seconds delay.
+    public static void startTypingWithRobotInTypingTutorPage(WebDriver driver) throws AWTException, InterruptedException {
+        Thread.sleep(1000);
 
-        if (text.equals("type me to find out how many words per minute you can type")) {
-            // Фраза "type me to find out how many words per minute you can type", которую нужно напечатать,
-            // закодирована числовыми кодами клавиш для раскладки клавиатуры QWERTY
-            // ('t'=84; 'y'=89; ' '=32 и т.д.)
-            Integer[] intArray = {
-                    84,89,80,69,32, 77,69,32, 84,79,32, 70,73,78,68,32, 79,85,84,32, 72,79,87,32, 77,65,78,89,32,
-                    87,79,82,68,83,32, 80,69,82,32, 77,73,78,85,84,69,32, 89,79,85,32, 67,65,78,32, 84,89,80,69
-            };
+        String xpathFirstLetter = "//*[@class='letter']";
 
-            // Generating key press event for writing the QWERTY letters
-            for(int i = 0; i < intArray.length; i++) {
-                robot.delay(120);
-                robot.keyPress(intArray[i]);
+        WebElement firstLetter = driver.findElement(By.xpath(xpathFirstLetter));
+        WebElement secondLetters = driver
+                .findElement(By.xpath("//*[@class='letter']/following-sibling::span"));
+
+        Integer count = firstLetter.getText().length() + secondLetters.getText().length();
+
+        if (firstLetter.isDisplayed()) {
+            Robot robot;
+            robot = new Robot();
+            robot.delay(1000);
+
+            for (int i = 0; i < count; i++) {
+                firstLetter = driver.findElement(By.xpath(xpathFirstLetter));
+                String letter = firstLetter.getText();
+                Character symbol = letter.toUpperCase().charAt(0);
+
+                if ("ABCDEFGHIJKLMNOPQRSTUVWXYZ".contains(letter)) {
+                    robot.delay(130);
+                    robot.keyPress(KeyEvent.VK_SHIFT);
+                    robot.keyPress(symbol);
+                    robot.keyRelease(symbol);
+                    robot.keyRelease(KeyEvent.VK_SHIFT);
+
+                } else {
+                    robot.delay(130);
+                    robot.keyPress(symbol);
+                }
             }
         }
 
-        robot.delay(2000);
+        Thread.sleep(1000);
     }
 
 }
